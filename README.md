@@ -1,6 +1,6 @@
-# 🧠 BroTask — Task Portal for Teams & Siblings
+# 🧠 Study-Managment-Portal — Task Portal for Teams & Siblings
 
-**BroTask** is a lightweight task management portal built with **Next.js 15, Tailwind CSS, and the MERN stack**, designed to help you assign instructions, track progress, and collaborate — especially with your younger sibling or small teams.
+**Study Managment Portal** is a lightweight task management portal built with **Next.js 15, Tailwind CSS, and the MERN stack**, designed to help you assign instructions, track progress, and collaborate — especially with your younger sibling or small teams.
 
 ---
 
@@ -24,8 +24,8 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/brotask.git
-cd brotask
+git clone https://github.com//Kashif-CS6/study-managment-portal.git
+cd study-managment-portal
 
 # Install dependencies
 npm install
