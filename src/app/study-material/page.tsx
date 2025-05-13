@@ -1,13 +1,12 @@
 "use client";
-
 import Navbar from "@/components/common/Navbar";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
 
-export default function Dashboard() {
-  const router = useRouter();
+const StudyMaterial = () => {
   const [isAuthChecked, setIsAuthChecked] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     const token = localStorage.getItem("Token");
@@ -33,18 +32,13 @@ export default function Dashboard() {
 
   return (
     <div>
-      {" "}
       <Navbar />
-      <div className="min-h-screen flex items-center justify-center bg-green-50">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-green-600 mb-4">
-            Welcome, Atif!
-          </h1>
-          <p className="text-lg">
-            This is your dashboard. Let's get productive today 🚀
-          </p>
-        </div>
+      <div className="flex justify-center">
+        Wait for page Update-- Thank you
       </div>
+      ;
     </div>
   );
-}
+};
+
+export default StudyMaterial;
