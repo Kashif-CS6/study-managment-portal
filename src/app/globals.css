@@ -3,3 +3,7 @@
 button {
   cursor: pointer;
 }
+
+a:hover {
+  color: blue;
+}
